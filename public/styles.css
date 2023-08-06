@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.title{
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(45deg, #ff7c7c, #f47f7f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header {
+    
+    padding: 20px;
+    text-align: center;
+}
+.display_values{
+   
+    /* background-color: #9ba6d0; */
+    background-image: url(img.png);
+    border-radius: 18px;
+    opacity: 95%;
+    color: wheat;
+}
+.display_values > * {
+    margin-left: 10px;
+  }
+.load_money{
+color: wheat;
+font-size: 26px;
+background-color: #3c4a6d;
+width: 292px;
+height: 42px;
+border-radius: 10px;
+  padding: 10px;
+}
+/* css for login */
+.login_class{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input::placeholder{
+  color: #ccc;
+  opacity: 80%;
+}
+input  {
+    background-image: url(img.png);
+    height: 30px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: wheat;
+  }
+  input:hover{
+    transform: scale(1.09);
+    transition: 0.8s;
+    border: 3px solid #943535;
+
+  }
+  .section{
+    background-image: url(img.png);
+    height: 41px;
+    width: 310px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: wheat;
+
+  }
+  .section:hover{
+    transform: scale(1.09);
+    transition: 0.8s;
+    border: 3px solid #943535;
+  }
+  button{
+    background-color: #8364b6;
+    height: 30px;
+    width: 312px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  button:hover{
+    border: 3px solid #3f419d;
+    transform: scale(1.09);
+    transition: 0.8s;
+  }
+.title{
+    background-color: transparent;
+    color: white;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+}
+.order{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    margin-top: 15vh;
+}
+
+.contents{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+/* .mobile-menu li:hover{
+    background-color: rgb(21, 88, 41);
+    transform: scale(1.09);
+    transition: 0.6s;
+
+    
+  } */
+
+  
+  
+  
+  
+  
+  
+  
